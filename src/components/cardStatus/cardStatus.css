@@ -1,0 +1,63 @@
+.card-layout{
+    
+    float: left;
+    /* justify-content: center; */
+    width: 100%;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+.card-1{
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.7);
+    width: 30%;
+    opacity: 0.7;
+    float: left;
+}
+.card-2{
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.7);
+    margin-left: 1%;
+    opacity: 0.7;
+    width: 30%;
+    float: left;
+}
+.card-bg{
+    height:450px;
+    color: hsl(0, 0%, 96%);
+    background-color: hsl(0, 0%, 21%);
+}
+.title-card{
+    font-family: 'Brandon Grotesque','brandon-grotesque-n7','brandon-grotesque',Helvetica,sans-serif;
+}
+.header-img{
+    padding-top: 5%;
+    padding-left: 20%;
+}
+.header-img-1{
+    padding-top: 5%;
+    padding-left: 15%;
+}
+.img-logo{
+    transform: rotate(180deg);
+    float: left;
+    padding-top:1%;
+    width:10%; /* you can use % */
+    height: 10%;
+}
+.img-logo-2{
+    float: left;
+    padding-top:1%;
+    width:10%; /* you can use % */
+    height: 10%;
+}
+.status-title{
+    margin-left: 2%;
+    float: left;
+    font-weight: bold; 
+    font-size: 35px;
+}
+.status{
+    padding-top: 30%;
+}
+.status-time{
+  font-size: 100px;
+  text-align: center;
+}

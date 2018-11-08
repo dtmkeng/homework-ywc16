@@ -1,0 +1,26 @@
+import React, { Component } from 'react'
+export default class FailCard extends Component {
+  render() {
+    return (
+      <div>
+            <div className="card">
+                <div className="content">
+                    <div className="card-bg">
+                       <div className="title-card">
+                            <div className="header-img">
+                                <img src={require('./rocket.png')} alt="logo" className="img-logo"/>
+                                <div className="status-title">Launch Fail</div>
+                            </div>
+                        </div>
+                        <div className="status">
+                                <div className="status-time">
+                                    15 
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+    )
+  }
+}
