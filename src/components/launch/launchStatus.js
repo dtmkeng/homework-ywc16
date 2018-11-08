@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class SucessStatus extends Component {
+export default class LaunchStatus extends Component {
   render() {
     return (
       <div>

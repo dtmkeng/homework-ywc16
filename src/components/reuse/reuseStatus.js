@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class FailStatus extends Component {
+export default class ReuseStatus extends Component {
   render() {
     return (
       <div>

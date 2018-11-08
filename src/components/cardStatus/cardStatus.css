@@ -31,6 +31,10 @@
     padding-top: 5%;
     padding-left: 20%;
 }
+.navbar-r{
+    opacity: 0.7;
+    background-color: hsl(0, 0%, 4%);
+}
 .header-img-1{
     padding-top: 5%;
     padding-left: 15%;

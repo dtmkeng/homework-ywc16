@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 
-export default class SucessCard extends Component {
+export default class LaunchCard extends Component {
   render() {
+      console.log(this.props)
     return (
       <div>
             <div className="card">
@@ -10,11 +11,11 @@ export default class SucessCard extends Component {
                         <div className="title-card">
                             <div className="header-img-1">
                                 <img src={require('./rocket.png')} alt="logo" className="img-logo-2"/>
-                                <div className="status-title">Launch Success</div>
+                                <div className="status-title">Launch</div>
                             </div>
                             <div className="status">
                                 <div className="status-time">
-                                    10 
+                                    {this.props.count}
                                 </div>
                             </div>
                         </div>

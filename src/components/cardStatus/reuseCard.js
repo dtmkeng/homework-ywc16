@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-export default class FailCard extends Component {
+export default class euseCard extends Component {
   render() {
     return (
       <div>
@@ -9,12 +9,12 @@ export default class FailCard extends Component {
                        <div className="title-card">
                             <div className="header-img">
                                 <img src={require('./rocket.png')} alt="logo" className="img-logo"/>
-                                <div className="status-title">Launch Fail</div>
+                                <div className="status-title">REUSE</div>
                             </div>
                         </div>
                         <div className="status">
                                 <div className="status-time">
-                                    15 
+                                   {this.props.count}
                                 </div>
                         </div>
                     </div>
