@@ -1,0 +1,48 @@
+.title-reuse{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.7);
+}
+.card-layout-chart{
+    
+    float: left;
+    /* justify-content: center; */
+    width: 100%;
+    /* margin-left: 19%; */
+    /* margin-right: 19%; */
+}
+.card-1-chart{
+    /* box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.7); */
+    font-size: 15px;
+    width: 35%;
+    /* opacity: 0.7; */
+    float: left;
+    margin-left: 8%;
+}
+.status-time-reuse{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .time-reuse{
+      font-size: 30px;
+      font-weight: 600;
+      margin-top: 3%;
+      margin-bottom: 5%;
+  }
+  .time-reuse-1{
+      font-size: 30px;
+      font-weight: 600;
+      /* margin-top: 3%; */
+  }
+  .item-reuse{
+      margin-top: 3%;
+  }
+  .bg-reuse{
+    background-image: url('./../../bg-color.jpg');
+    /* background-color: black; */
+    /* background-size: cover; */
+    height: 130rem;
+  }

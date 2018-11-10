@@ -1,3 +1,18 @@
 .logo-speac{
     text-align: center;
+    font-size: 60px;
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.7);
+}
+.bg-home{
+  background-image: url('./../../bg-color.jpg');
+  /* background-color: black; */
+  /* background-size: cover; */
+  height: 50rem;
+}
+.thank{
+    margin-bottom: 0;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
 }

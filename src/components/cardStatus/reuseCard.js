@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-export default class euseCard extends Component {
+export default class ReuseCard extends Component {
   render() {
     return (
       <div>
@@ -8,7 +8,7 @@ export default class euseCard extends Component {
                     <div className="card-bg">
                        <div className="title-card">
                             <div className="header-img">
-                                <img src={require('./rocket.png')} alt="logo" className="img-logo"/>
+                                <img src={require('../rocket.png')} alt="logo" className="img-logo"/>
                                 <div className="status-title">REUSE</div>
                             </div>
                         </div>

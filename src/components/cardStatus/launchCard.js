@@ -10,7 +10,7 @@ export default class LaunchCard extends Component {
                     <div className="card-bg">
                         <div className="title-card">
                             <div className="header-img-1">
-                                <img src={require('./rocket.png')} alt="logo" className="img-logo-2"/>
+                                <img src={require('../rocket.png')} alt="logo" className="img-logo-2"/>
                                 <div className="status-title">Launch</div>
                             </div>
                             <div className="status">
